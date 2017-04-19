@@ -1,4 +1,4 @@
-# [译]怎么发布二方包到中心仓库（How To Publish Software Artifacts To Central Repository）
+# [译]怎么发布软件构件到中心仓库
 
 原文注：添加了最佳实践和最新的相关文档链接。
 
@@ -6,15 +6,16 @@
 
 ## 我为什么写此文
 
-I wrote this post to serve as a reference for myself and for anyone else out there who might find it useful: a place to document the necessary steps needed to publish software artifacts to the Central Repository.  While iterating the recurrent hurdles that I kept on encountering in the process of getting the publishing to Central successful. I have also included a couple of useful links at the end of the post.
+之所以写这篇文章，是因为我想给我自己或者其他人一个参考，于是，在这里记录下了发布软件构件到中心仓库的必要步骤。在“黑暗中摸索”的时候也沉淀了一些有用的链接，放在了文章的最后。
 
-A rundown of the steps involved can be roughly summarized to be:
+所有要做的事情可以概括为以下几步：
 
-Create an account on oss.sonatype.org
-Create and share a PGP signature.
-Update settings.xml and pom.xml appropriately.
-Upload your artifact to oss.sonatype.org.
-Promote the release.
+1.创建一个oss.sonatype.org帐号
+2.创建PGP签名，然后分享
+3.更新settings.xml和pom.xml
+4.上传构件到oss.sonatype.org
+5.发布
+
 Before proceeding with the steps, I would like to highlight some of the principal entities that come to play in the process. Sonatype, Nexus, OSSHR…as there is that small possibility that these entities might not be known…So I will quickly touch upon on what they represent, and how they relate to our mission of moving software to Central Repository.
 
 [原文链接](http://www.sonatype.org/nexus/2015/06/02/how-to-publish-software-artifacts-to-maven-central/)
