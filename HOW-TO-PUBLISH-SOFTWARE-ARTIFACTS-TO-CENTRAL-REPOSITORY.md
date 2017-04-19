@@ -10,11 +10,11 @@
 
 所有要做的事情可以概括为以下几步：
 
-1.创建一个oss.sonatype.org帐号
-2.创建PGP签名，然后分享
-3.更新settings.xml和pom.xml
-4.上传构件到oss.sonatype.org
-5.发布
+1. 创建一个oss.sonatype.org帐号
+2. 创建PGP签名，然后分享
+3. 更新settings.xml和pom.xml
+4. 上传构件到oss.sonatype.org
+5. 发布
 
 Before proceeding with the steps, I would like to highlight some of the principal entities that come to play in the process. Sonatype, Nexus, OSSHR…as there is that small possibility that these entities might not be known…So I will quickly touch upon on what they represent, and how they relate to our mission of moving software to Central Repository.
 
